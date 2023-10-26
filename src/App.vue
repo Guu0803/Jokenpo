@@ -11,9 +11,9 @@
         <img src="@/assets/papel.png" class="icon">
       </div>
     </div>
-    <button v-on:click="teste()">
+    <!-- <button v-on:click="teste()">
       clique aqui
-    </button>
+    </button> -->
     <div class="main-container">
       <div class="options" id="stone">
         <img src="@/assets/pedra.png" class="icon">
@@ -63,19 +63,26 @@ export default {
 }
 </script>
 <style>
+body{
+  margin: 0;
+}
+
 .janela {
-  border: 1px solid red;
-  justify-content: space-between;
   display: flex;
-  gap: 10vw;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle, #1c6ca1, #11374e, #071720);
 }
 
 .main-container {
   position: relative;
-  width: 30vw;
-  height: 30vw;
-  border-radius: 50%;
-  border: 1px solid black;
+  height: fit-content;
+  padding: 1vw;
+  gap: 1vh;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,19 +91,15 @@ export default {
 .options {
   height: 10vw;
   width: 10vw;
-  border-radius: 50%;
-  border: 1px solid red;
-  position: absolute;
+  border-radius: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: black;
 }
 
 .options:hover {
   cursor: pointer;
   background-color: aqua;
-
 }
 
 .icon {
@@ -110,11 +113,9 @@ export default {
 
 #paper {
   right: 0;
-  margin-bottom: -5vw;
 }
 
 #scissors {
   left: 0;
-  margin-bottom: -5vw;
 }
 </style>
