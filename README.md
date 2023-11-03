@@ -38,6 +38,8 @@ Este projeto é distribuído sob a Licença MIT. Consulte o arquivo `LICENSE` pa
 ## Autor
 
 Gustavo Nogueira
+[LinkedIn](https://www.linkedin.com/in/gustavo-henrique-nogueira-deranzani-bicudo-11659a221/)
+
 
 
 ---
