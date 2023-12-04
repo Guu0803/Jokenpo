@@ -6,13 +6,13 @@ Este é um simples jogo de Pedra, Papel e Tesoura criado em Vue.js. Ele permite 
 
 ![jokenpo](https://github.com/Guu0803/Jokenpo/assets/110205737/d6dbcaae-7d99-475a-aa41-c3a937bf2d25)
 
-https://gustavo-jokenpo.netlify.app
+
 
 ## Como Jogar
 
 1. Clone ou faça o download deste repositório.
 2. Abra o arquivo `index.html` no seu navegador da web.
-3. Ou acesse o o link:
+3. Ou acesse o o link: https://gustavo-jokenpo.netlify.app
 
 ## Tecnologias Utilizadas
 
